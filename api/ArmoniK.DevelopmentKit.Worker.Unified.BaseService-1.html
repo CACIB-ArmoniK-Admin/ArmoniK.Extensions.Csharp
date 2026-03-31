@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class BaseService&lt;T&gt; </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class BaseService&lt;T&gt; ">
+      
+      <meta name="description" content="The Class ServiceContainerBase (Old name was IServiceContainer) is an abstract class that have to be implemented by each class wanted to be loaded as new Application See an example in the project ArmoniK.Samples in the sub project https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike Samples.ArmoniK.Sample.SymphonyPackages">
+      <link rel="icon" href="../images/armonik_favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/new/main/apiSpec/new?filename=ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1.md&amp;value=---%0Auid%3A%20ArmoniK.DevelopmentKit.Worker.Unified.BaseService%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/armonik_logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1">
+
+
+
+  <h1 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1" class="text-break">
+Class BaseService&lt;T&gt;  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L43"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ArmoniK.html">ArmoniK</a>.<a class="xref" href="ArmoniK.DevelopmentKit.html">DevelopmentKit</a>.<a class="xref" href="ArmoniK.DevelopmentKit.Worker.html">Worker</a>.<a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.html">Unified</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ArmoniK.DevelopmentKit.Worker.Unified.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The Class ServiceContainerBase (Old name was IServiceContainer) is an abstract class
+that have to be implemented by each class wanted to be loaded as new Application
+See an example in the project ArmoniK.Samples in the sub project
+<a href="https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike">https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike</a>
+Samples.ArmoniK.Sample.SymphonyPackages</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public abstract class BaseService&lt;T&gt;</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">BaseService&lt;T&gt;</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="ArmoniK.EndToEndTests.Worker.Tests.LargePayloadSubmit.LargePayloadSubmitWorker.html">LargePayloadSubmitWorker</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.BaseServiceExt.html#ArmoniK_DevelopmentKit_Worker_Unified_BaseServiceExt_SubmitTaskWithDependencies__1_ArmoniK_DevelopmentKit_Worker_Unified_BaseService___0__System_Byte___System_Collections_Generic_IList_System_String__System_Boolean_System_Int32_ArmoniK_Api_gRPC_V1_TaskOptions_">BaseServiceExt.SubmitTaskWithDependencies&lt;T&gt;(BaseService&lt;T&gt;, byte[], IList&lt;string&gt;, bool, int, TaskOptions)</a>
+  </div>
+  <div>
+      <a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.BaseServiceExt.html#ArmoniK_DevelopmentKit_Worker_Unified_BaseServiceExt_SubmitTask__1_ArmoniK_DevelopmentKit_Worker_Unified_BaseService___0__System_Byte___System_Int32_ArmoniK_Api_gRPC_V1_TaskOptions_">BaseServiceExt.SubmitTask&lt;T&gt;(BaseService&lt;T&gt;, byte[], int, TaskOptions)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1__ctor_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.#ctor*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1__ctor" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.#ctor">
+  BaseService()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseService()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1__ctor_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.#ctor*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1__ctor_Microsoft_Extensions_Logging_ILoggerFactory_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)">
+  BaseService(ILoggerFactory)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseService(ILoggerFactory loggerFactory)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>loggerFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory">ILoggerFactory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_Configuration_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.Configuration*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_Configuration" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.Configuration">
+  Configuration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L104"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or Set Configuration</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IConfiguration Configuration { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfiguration">IConfiguration</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_Logger_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.Logger*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_Logger" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.Logger">
+  Logger
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>ginScope
+Get access to Logger with Logger.Lo.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILogger&lt;T&gt; Logger { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1">ILogger</a>&lt;T&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_LoggerFactory_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.LoggerFactory*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_LoggerFactory" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.LoggerFactory">
+  LoggerFactory
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The logger factory to create new Logger in sub class caller</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ILoggerFactory LoggerFactory { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory">ILoggerFactory</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_SessionId_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.SessionId*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_SessionId" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.SessionId">
+  SessionId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or Set SubSessionId object stored during the call of SubmitTask, SubmitSubTask,
+SubmitSubTaskWithDependencies or WaitForCompletion, WaitForSubTaskCompletion or GetResults</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Session SessionId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">Session</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_TaskId_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.TaskId*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_TaskId" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.TaskId">
+  TaskId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get or set the taskId (ONLY INTERNAL USED)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaskId TaskId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TaskId</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_TaskId2OutputId_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.TaskId2OutputId*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_TaskId2OutputId" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.TaskId2OutputId">
+  TaskId2OutputId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Map between ids of task and their results id after task submission</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;string, string&gt; TaskId2OutputId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2">Dictionary</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_TaskOptions_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.TaskOptions*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_TaskOptions" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.TaskOptions">
+  TaskOptions
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return TaskOption coming from Client side</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaskOptions TaskOptions { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">TaskOptions</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_Configure_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.Configure*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_Configure_Microsoft_Extensions_Configuration_IConfiguration_ArmoniK_Api_gRPC_V1_TaskOptions_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.Configure(Microsoft.Extensions.Configuration.IConfiguration,ArmoniK.Api.gRPC.V1.TaskOptions)">
+  Configure(IConfiguration, TaskOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L259"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The configure method is an internal call to prepare the ServiceContainer.
+Its holds several configuration coming from the Client call</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Configure(IConfiguration configuration, TaskOptions clientOptions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>configuration</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfiguration">IConfiguration</a></dt>
+    <dd><p>The appSettings.json configuration prepared during the deployment</p>
+</dd>
+    <dt><code>clientOptions</code> <span class="xref">TaskOptions</span></dt>
+    <dd><p>All data coming from Client within TaskOptions</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_ConfigureSession_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.ConfigureSession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_ConfigureSession_ArmoniK_Api_gRPC_V1_Session_ArmoniK_Api_gRPC_V1_TaskOptions_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.ConfigureSession(ArmoniK.Api.gRPC.V1.Session,ArmoniK.Api.gRPC.V1.TaskOptions)">
+  ConfigureSession(Session, TaskOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Prepare Session and create SessionService with the specific session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ConfigureSession(Session sessionId, TaskOptions requestTaskOptions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <span class="xref">Session</span></dt>
+    <dd></dd>
+    <dt><code>requestTaskOptions</code> <span class="xref">TaskOptions</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_ConfigureSessionService_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.ConfigureSessionService*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_ConfigureSessionService_ArmoniK_Api_Worker_Worker_ITaskHandler_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.ConfigureSessionService(ArmoniK.Api.Worker.Worker.ITaskHandler)">
+  ConfigureSessionService(ITaskHandler)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L291"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Configure Service for actual session. Connect the worker to the current pollingAgent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ConfigureSessionService(ITaskHandler taskHandler)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskHandler</code> <span class="xref">ITaskHandler</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_GetDependenciesResult_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.GetDependenciesResult*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_GetDependenciesResult_System_String_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.GetDependenciesResult(System.String)">
+  GetDependenciesResult(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Get Result from compute reply</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] GetDependenciesResult(string taskId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The task Id to get the result</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd><p>return the customer payload</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnCreateService_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnCreateService*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnCreateService_ArmoniK_DevelopmentKit_Worker_Unified_ServiceContext_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnCreateService(ArmoniK.DevelopmentKit.Worker.Unified.ServiceContext)">
+  OnCreateService(ServiceContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L119"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The middleware triggers the invocation of this handler just after a Service Instance is started.
+The application developer must put any service initialization into this handler.
+Default implementation does nothing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnCreateService(ServiceContext serviceContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceContext</code> <a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.ServiceContext.html">ServiceContext</a></dt>
+    <dd><p>Holds all information on the state of the service at the start of the execution.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnDestroyService_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnDestroyService*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnDestroyService_ArmoniK_DevelopmentKit_Worker_Unified_ServiceContext_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnDestroyService(ArmoniK.DevelopmentKit.Worker.Unified.ServiceContext)">
+  OnDestroyService(ServiceContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The middleware triggers the invocation of this handler just before a Service Instance is destroyed.
+This handler should do any cleanup for any resources that were used in the onCreateService() method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDestroyService(ServiceContext serviceContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>serviceContext</code> <a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.ServiceContext.html">ServiceContext</a></dt>
+    <dd><p>Holds all information on the state of the service at the start of the execution.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnInvoke_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnInvoke*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnInvoke_ArmoniK_DevelopmentKit_Worker_Unified_SessionContext_ArmoniK_DevelopmentKit_Worker_Unified_TaskContext_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnInvoke(ArmoniK.DevelopmentKit.Worker.Unified.SessionContext,ArmoniK.DevelopmentKit.Worker.Unified.TaskContext)">
+  OnInvoke(SessionContext, TaskContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L147"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The middleware triggers the invocation of this handler every time a task input is
+sent to the service to be processed.
+The actual service logic should be implemented in this method. This is the only
+method that is mandatory for the application developer to implement.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] OnInvoke(SessionContext sessionContext, TaskContext taskContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionContext</code> <a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.SessionContext.html">SessionContext</a></dt>
+    <dd><p>Holds all information on the state of the session at the start of the execution such as session ID.</p>
+</dd>
+    <dt><code>taskContext</code> <a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.TaskContext.html">TaskContext</a></dt>
+    <dd><p>Holds all information on the state of the task such as the task ID and the payload.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnSessionEnter_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnSessionEnter*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnSessionEnter_ArmoniK_DevelopmentKit_Worker_Unified_SessionContext_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnSessionEnter(ArmoniK.DevelopmentKit.Worker.Unified.SessionContext)">
+  OnSessionEnter(SessionContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L130"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This handler is executed once after the callback OnCreateService and before the OnInvoke</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSessionEnter(SessionContext sessionContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionContext</code> <a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.SessionContext.html">SessionContext</a></dt>
+    <dd><p>Holds all information on the state of the session at the start of the execution.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnSessionLeave_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnSessionLeave*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_OnSessionLeave_ArmoniK_DevelopmentKit_Worker_Unified_SessionContext_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.OnSessionLeave(ArmoniK.DevelopmentKit.Worker.Unified.SessionContext)">
+  OnSessionLeave(SessionContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The middleware triggers the invocation of this handler to unbind the Service Instance from its owning Session.
+This handler should do any cleanup for any resources that were used in the onSessionEnter() method.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnSessionLeave(SessionContext sessionContext)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionContext</code> <a class="xref" href="ArmoniK.DevelopmentKit.Worker.Unified.SessionContext.html">SessionContext</a></dt>
+    <dd><p>Holds all information on the state of the session at the start of the execution such as session ID.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_SubmitTasks_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.SubmitTasks*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_SubmitTasks_System_Collections_Generic_IEnumerable_System_Byte____System_Int32_ArmoniK_Api_gRPC_V1_TaskOptions_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.SubmitTasks(System.Collections.Generic.IEnumerable{System.Byte[]},System.Int32,ArmoniK.Api.gRPC.V1.TaskOptions)">
+  SubmitTasks(IEnumerable&lt;byte[]&gt;, int, TaskOptions?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>User method to submit task from the service</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; SubmitTasks(IEnumerable&lt;byte[]&gt; payloads, int maxRetries = 5, TaskOptions? taskOptions = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>payloads</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
+    <dd><p>The user payload list to execute. Generally used for subTasking.</p>
+</dd>
+    <dt><code>maxRetries</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of retry before fail to submit task. Default = 5 retries</p>
+</dd>
+    <dt><code>taskOptions</code> <span class="xref">TaskOptions</span></dt>
+    <dd><p>TaskOptions argument to override default taskOptions in Session.
+If non null it will override the default taskOptions in SessionService for client or given by taskHandler for worker</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_SubmitTasksWithDependencies_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.SubmitTasksWithDependencies*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_SubmitTasksWithDependencies_System_Collections_Generic_IEnumerable_System_Tuple_System_Byte___System_Collections_Generic_IList_System_String____System_Boolean_System_Int32_ArmoniK_Api_gRPC_V1_TaskOptions_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.SubmitTasksWithDependencies(System.Collections.Generic.IEnumerable{System.Tuple{System.Byte[],System.Collections.Generic.IList{System.String}}},System.Boolean,System.Int32,ArmoniK.Api.gRPC.V1.TaskOptions)">
+  SubmitTasksWithDependencies(IEnumerable&lt;Tuple&lt;byte[], IList&lt;string&gt;&gt;&gt;, bool, int, TaskOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method to submit several tasks with dependencies tasks. This task will wait for
+to start until all dependencies are completed successfully</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; SubmitTasksWithDependencies(IEnumerable&lt;Tuple&lt;byte[], IList&lt;string&gt;&gt;&gt; payloadWithDependencies, bool resultForParent = false, int maxRetries = 5, TaskOptions taskOptions = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>payloadWithDependencies</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[], <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;&gt;&gt;</dt>
+    <dd><p>A list of Tuple(taskId, Payload) in dependence of those created tasks</p>
+</dd>
+    <dt><code>resultForParent</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Up result to parent task</p>
+</dd>
+    <dt><code>maxRetries</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The number of retry before fail to submit task. Default = 5 retries</p>
+</dd>
+    <dt><code>taskOptions</code> <span class="xref">TaskOptions</span></dt>
+    <dd><p>TaskOptions argument to override default taskOptions in Session.
+If non null it will override the default taskOptions in SessionService for client or given by taskHandler for worker</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>return a list of taskIds of the created tasks</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_WaitForSubTasksCompletion_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.WaitForSubTasksCompletion*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_WaitForSubTasksCompletion_System_String_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.WaitForSubTasksCompletion(System.String)">
+  WaitForSubTasksCompletion(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L240"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>User method to wait for SubTasks from the client</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void WaitForSubTasksCompletion(string taskId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The task id of the Subtask</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_WaitForTaskCompletion_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.WaitForTaskCompletion*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_WaitForTaskCompletion_System_String_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.WaitForTaskCompletion(System.String)">
+  WaitForTaskCompletion(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>User method to wait for only the parent task from the client</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void WaitForTaskCompletion(string taskId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The task id of the task to wait for</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_WaitForTasksCompletion_" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.WaitForTasksCompletion*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Worker_Unified_BaseService_1_WaitForTasksCompletion_System_Collections_Generic_IEnumerable_System_String__" data-uid="ArmoniK.DevelopmentKit.Worker.Unified.BaseService`1.WaitForTasksCompletion(System.Collections.Generic.IEnumerable{System.String})">
+  WaitForTasksCompletion(IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public void WaitForTasksCompletion(IEnumerable&lt;string&gt; taskIds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>List of tasks to wait for</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Worker/src/Unified/BaseService.cs/#L43" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <strong>Aneo</strong>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

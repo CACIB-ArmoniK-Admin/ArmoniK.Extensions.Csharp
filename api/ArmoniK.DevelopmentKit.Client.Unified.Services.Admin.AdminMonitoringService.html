@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AdminMonitoringService </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AdminMonitoringService ">
+      
+      <meta name="description" content="The Administration and monitoring class to get or manage information on grid server">
+      <link rel="icon" href="../images/armonik_favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/new/main/apiSpec/new?filename=ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService.md&amp;value=---%0Auid%3A%20ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/armonik_logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService">
+
+
+
+  <h1 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService" class="text-break">
+Class AdminMonitoringService  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="ArmoniK.html">ArmoniK</a>.<a class="xref" href="ArmoniK.DevelopmentKit.html">DevelopmentKit</a>.<a class="xref" href="ArmoniK.DevelopmentKit.Client.html">Client</a>.<a class="xref" href="ArmoniK.DevelopmentKit.Client.Unified.html">Unified</a>.<a class="xref" href="ArmoniK.DevelopmentKit.Client.Unified.Services.html">Services</a>.<a class="xref" href="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.html">Admin</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>ArmoniK.DevelopmentKit.Client.Unified.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The Administration and monitoring class to get or manage information on grid server</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AdminMonitoringService</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AdminMonitoringService</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService__ctor_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.#ctor*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService__ctor_ArmoniK_Utils_Pool_ObjectPool_Grpc_Net_Client_GrpcChannel__Microsoft_Extensions_Logging_ILoggerFactory_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.#ctor(ArmoniK.Utils.Pool.ObjectPool{Grpc.Net.Client.GrpcChannel},Microsoft.Extensions.Logging.ILoggerFactory)">
+  AdminMonitoringService(ObjectPool&lt;GrpcChannel&gt;, ILoggerFactory?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The constructor to instantiate this service</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AdminMonitoringService(ObjectPool&lt;GrpcChannel&gt; channelPool, ILoggerFactory? loggerFactory = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>channelPool</code> <span class="xref">ObjectPool</span>&lt;<a class="xref" href="https://github.com/grpc/grpc-dotnet/blob/main/src/Grpc.Net.Client/GrpcChannel.cs">GrpcChannel</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>loggerFactory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.iloggerfactory">ILoggerFactory</a></dt>
+    <dd><p>The factory logger to create logger</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CancelSession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CancelSession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CancelSession_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CancelSession(System.String)">
+  CancelSession(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L108"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This method can mark the session in status Cancelled and
+mark all tasks in cancel status</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public void CancelSession(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the sessionId of the session to cancel</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CancelSessionAsync_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CancelSessionAsync*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CancelSessionAsync_System_String_System_Threading_CancellationToken_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CancelSessionAsync(System.String,System.Threading.CancellationToken)">
+  CancelSessionAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L86"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This method can mark the session in status Cancelled and
+mark all tasks in cancel status</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public ValueTask CancelSessionAsync(string sessionId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the sessionId of the session to cancel</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask">ValueTask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CancelTasksBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CancelTasksBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CancelTasksBySession_System_Collections_Generic_IEnumerable_System_String__" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CancelTasksBySession(System.Collections.Generic.IEnumerable{System.String})">
+  CancelTasksBySession(IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L461"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cancel a list of task in a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public void CancelTasksBySession(IEnumerable&lt;string&gt; taskIds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>the taskIds list to cancel</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CancelTasksBySessionAsync_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CancelTasksBySessionAsync*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CancelTasksBySessionAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CancelTasksBySessionAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">
+  CancelTasksBySessionAsync(IEnumerable&lt;string&gt;, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L471"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Cancel a list of task in a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public ValueTask CancelTasksBySessionAsync(IEnumerable&lt;string&gt; taskIds, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>the taskIds list to cancel</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.valuetask">ValueTask</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountAllTasksBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountAllTasksBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountAllTasksBySession_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountAllTasksBySession(System.String)">
+  CountAllTasksBySession(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get the number of all task in a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CountAllTasksBySession(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>return the number of task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountCancelTasksBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountCancelTasksBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountCancelTasksBySession_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountCancelTasksBySession(System.String)">
+  CountCancelTasksBySession(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L443"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get the number of error tasks in the session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public int CountCancelTasksBySession(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>return the number of task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountCompletedTasksBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountCompletedTasksBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountCompletedTasksBySession_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountCompletedTasksBySession(System.String)">
+  CountCompletedTasksBySession(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L452"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get the number of error tasks in the session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public int CountCompletedTasksBySession(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>return the number of task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountErrorTasksBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountErrorTasksBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountErrorTasksBySession_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountErrorTasksBySession(System.String)">
+  CountErrorTasksBySession(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L377"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get the number of error tasks in the session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CountErrorTasksBySession(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>return the number of task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountRunningTasksBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountRunningTasksBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountRunningTasksBySession_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountRunningTasksBySession(System.String)">
+  CountRunningTasksBySession(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L369"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get the number of running tasks in the session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CountRunningTasksBySession(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>return the number of task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountTaskBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountTaskBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_CountTaskBySession_System_String_ArmoniK_Api_gRPC_V1_TaskStatus___" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.CountTaskBySession(System.String,ArmoniK.Api.gRPC.V1.TaskStatus[])">
+  CountTaskBySession(string, params TaskStatus[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Count task in a session and select by status</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public int CountTaskBySession(string sessionId, params TaskStatus[] taskStatus)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>the id of the session</p>
+</dd>
+    <dt><code>taskStatus</code> <span class="xref">TaskStatus</span>[]</dt>
+    <dd><p>a variadic list of taskStatus</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>return the number of task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_GetServiceConfiguration_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.GetServiceConfiguration*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_GetServiceConfiguration" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.GetServiceConfiguration">
+  GetServiceConfiguration()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the service configuration</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetServiceConfiguration()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_GetTaskStatus_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.GetTaskStatus*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_GetTaskStatus_System_Collections_Generic_IEnumerable_System_String__" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.GetTaskStatus(System.Collections.Generic.IEnumerable{System.String})">
+  GetTaskStatus(IEnumerable&lt;string&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L494"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method to get status of a list of tasks</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IEnumerable&lt;Tuple&lt;string, TaskStatus&gt;&gt; GetTaskStatus(IEnumerable&lt;string&gt; taskIds)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of task</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">TaskStatus</span>&gt;&gt;</dt>
+    <dd><p>returns a list of pair TaskId/TaskStatus</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_GetTaskStatusAsync_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.GetTaskStatusAsync*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_GetTaskStatusAsync_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.GetTaskStatusAsync(System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">
+  GetTaskStatusAsync(IEnumerable&lt;string&gt;, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L505"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method to get status of a list of tasks</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IAsyncEnumerable&lt;Tuple&lt;string, TaskStatus&gt;&gt; GetTaskStatusAsync(IEnumerable&lt;string&gt; taskIds, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>taskIds</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of task</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>, <span class="xref">TaskStatus</span>&gt;&gt;</dt>
+    <dd><p>returns a list of pair TaskId/TaskStatus</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListAllSessions_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListAllSessions*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListAllSessions" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListAllSessions">
+  ListAllSessions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the list of all sessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IEnumerable&lt;string&gt; ListAllSessions()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of filtered session</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListAllSessionsAsync_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListAllSessionsAsync*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListAllSessionsAsync_System_Threading_CancellationToken_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListAllSessionsAsync(System.Threading.CancellationToken)">
+  ListAllSessionsAsync(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the list of all sessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IAsyncEnumerable&lt;string&gt; ListAllSessionsAsync(CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of filtered session</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListAllTasksBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListAllTasksBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListAllTasksBySession_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListAllTasksBySession(System.String)">
+  ListAllTasksBySession(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L117"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the whole list of task of a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; ListAllTasksBySession(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of filtered task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListCancelledSessions_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListCancelledSessions*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListCancelledSessions" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListCancelledSessions">
+  ListCancelledSessions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L303"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get a filtered list of running session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IEnumerable&lt;string&gt; ListCancelledSessions()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>returns a list of session filtered</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListCancelledSessionsAsync_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListCancelledSessionsAsync*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListCancelledSessionsAsync_System_Threading_CancellationToken_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListCancelledSessionsAsync(System.Threading.CancellationToken)">
+  ListCancelledSessionsAsync(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L312"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get a filtered list of running session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IAsyncEnumerable&lt;string&gt; ListCancelledSessionsAsync(CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>returns a list of session filtered</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListCancelledTasks_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListCancelledTasks*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListCancelledTasks_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListCancelledTasks(System.String)">
+  ListCancelledTasks(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the list of canceled tasks of a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public IEnumerable&lt;string&gt; ListCancelledTasks(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of filtered task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListErrorTasks_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListErrorTasks*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListErrorTasks_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListErrorTasks(System.String)">
+  ListErrorTasks(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the list of error tasks of a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public IEnumerable&lt;string&gt; ListErrorTasks(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of filtered task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListRunningSessions_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListRunningSessions*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListRunningSessions" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListRunningSessions">
+  ListRunningSessions()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L245"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get a filtered list of running session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IEnumerable&lt;string&gt; ListRunningSessions()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>returns a list of session filtered</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListRunningSessionsAsync_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListRunningSessionsAsync*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListRunningSessionsAsync_System_Threading_CancellationToken_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListRunningSessionsAsync(System.Threading.CancellationToken)">
+  ListRunningSessionsAsync(CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The method is to get a filtered list of running session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IAsyncEnumerable&lt;string&gt; ListRunningSessionsAsync(CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>returns a list of session filtered</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListRunningTasks_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListRunningTasks*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListRunningTasks_System_String_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListRunningTasks(System.String)">
+  ListRunningTasks(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the list of running tasks of a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete]
+public IEnumerable&lt;string&gt; ListRunningTasks(string sessionId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of filtered task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListTasksBySession_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListTasksBySession*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListTasksBySession_System_String_ArmoniK_Api_gRPC_V1_TaskStatus___" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListTasksBySession(System.String,ArmoniK.Api.gRPC.V1.TaskStatus[])">
+  ListTasksBySession(string, params TaskStatus[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L124"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the list of task of a session filtered by status</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IEnumerable&lt;string&gt; ListTasksBySession(string sessionId, params TaskStatus[] taskStatus)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>taskStatus</code> <span class="xref">TaskStatus</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of filtered task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListTasksBySessionAsync_" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListTasksBySessionAsync*"></a>
+
+  <h3 id="ArmoniK_DevelopmentKit_Client_Unified_Services_Admin_AdminMonitoringService_ListTasksBySessionAsync_System_String_System_Threading_CancellationToken_ArmoniK_Api_gRPC_V1_TaskStatus___" data-uid="ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.ListTasksBySessionAsync(System.String,System.Threading.CancellationToken,ArmoniK.Api.gRPC.V1.TaskStatus[])">
+  ListTasksBySessionAsync(string, CancellationToken, params TaskStatus[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Return the list of task of a session filtered by status</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicAPI]
+public IAsyncEnumerable&lt;string&gt; ListTasksBySessionAsync(string sessionId, CancellationToken cancellationToken = default, params TaskStatus[] taskStatus)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd></dd>
+    <dt><code>taskStatus</code> <span class="xref">TaskStatus</span>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.iasyncenumerable-1">IAsyncEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>The list of filtered task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/CACIB-ArmoniK-Admin/ArmoniK.Extensions.Csharp/blob/main/Client/src/Unified/Services/Admin/AdminMonitoringService.cs/#L50" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <strong>Aneo</strong>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

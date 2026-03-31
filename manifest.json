@@ -1,0 +1,2978 @@
+{
+  "source_base_path": "/home/runner/work/ArmoniK.Extensions.Csharp/ArmoniK.Extensions.Csharp/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Exceptions.ResultAbortedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Exceptions.ResultAbortedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Exceptions.ResultAbortedException",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Exceptions.ResultAbortedException.yml\" sourcestartlinenumber=\"1\">Exception when result is aborted</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Exceptions.ServiceInvocationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Exceptions.ServiceInvocationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Exceptions.ServiceInvocationException",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Exceptions.ServiceInvocationException.yml\" sourcestartlinenumber=\"1\">The service invocation exception. This class wil contain all error information of task or result</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.IServiceInvocationHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.IServiceInvocationHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.IServiceInvocationHandler",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.IServiceInvocationHandler.yml\" sourcestartlinenumber=\"1\">The interface from which the handler must inherit to be considered as a handler of service\nin the method LocalExecute, Execute or Submit</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Properties.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Properties",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Properties.yml\" sourcestartlinenumber=\"1\">The properties class to set all configuration of the service</p>\n<ol sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Properties.yml\" sourcestartlinenumber=\"2\">\n<li sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Properties.yml\" sourcestartlinenumber=\"2\">The connection information</li>\n<li sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Properties.yml\" sourcestartlinenumber=\"3\">The Option configuration AppSettings\nThe ssl mTLS certificate if needed to connect to the control plane</li>\n</ol>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.ArmonikStatusCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.ArmonikStatusCode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Status.ArmonikStatusCode",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Status.ArmonikStatusCode.yml\" sourcestartlinenumber=\"1\">List of status for task and result in Armonik</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.ResultStatusCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.ResultStatusCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Status.ResultStatusCollection",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Status.ResultStatusCollection.yml\" sourcestartlinenumber=\"1\">List of result status that will be collected during the request GetResultStatus</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.ResultStatusData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.ResultStatusData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Status.ResultStatusData",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Status.ResultStatusData.yml\" sourcestartlinenumber=\"1\">Stores the relation between result id, task id and result status</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.TaskStatusExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.TaskStatusExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Status.TaskStatusExt",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Status.TaskStatusExt.yml\" sourcestartlinenumber=\"1\">Extends the ArmoniK API TaskStatus type to provide some means for conversion.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Status.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Status",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.BaseClientSubmitter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.BaseClientSubmitter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Submitter.BaseClientSubmitter<T>",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Submitter.BaseClientSubmitter-1.yml\" sourcestartlinenumber=\"1\">Base Object for all Client submitter\nNeed to pass the child object Class Type</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.ClientServiceConnector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.ClientServiceConnector.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Submitter.ClientServiceConnector",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Submitter.ClientServiceConnector.yml\" sourcestartlinenumber=\"1\">ClientServiceConnector is the class to connection to the control plane with different\nlike address,port, insecure connection, TLS, and mTLS</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.ISubmitterService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.ISubmitterService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Submitter.ISubmitterService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Submitter.ISubmitterService.yml\" sourcestartlinenumber=\"1\">Common Interface for Submitter services.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.RequestTaskMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.RequestTaskMap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Submitter.RequestTaskMap",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Submitter.RequestTaskMap.yml\" sourcestartlinenumber=\"1\">The class to map submissionId to taskId when submit is done asynchronously</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.SubmitterServiceExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.SubmitterServiceExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Submitter.SubmitterServiceExt",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Common.Submitter.SubmitterServiceExt.yml\" sourcestartlinenumber=\"1\">Provide extension methods for ISubmitterService</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.TasksClientExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.TasksClientExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Submitter.TasksClientExt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.Submitter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common.Submitter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Symphony.ArmonikSymphonyClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Symphony.ArmonikSymphonyClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Symphony.ArmonikSymphonyClient",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Symphony.ArmonikSymphonyClient.yml\" sourcestartlinenumber=\"1\">The main object to communicate with the control Plane from the client side\nThe class will connect to the control plane to createSession, SubmitTask,\nWait for result and get the result.\nSee an example in the project ArmoniK.Samples in the sub project\n<a href=\"https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike\" sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Symphony.ArmonikSymphonyClient.yml\" sourcestartlinenumber=\"5\">https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike</a>\nSamples.ArmoniK.Sample.SymphonyClient</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Symphony.SessionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Symphony.SessionService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Symphony.SessionService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Symphony.SessionService.yml\" sourcestartlinenumber=\"1\">The class SessionService will be create each time the function CreateSession or OpenSession will\nbe called by client or by the worker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Symphony.SessionStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Symphony.SessionStorage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Symphony.SessionStorage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Symphony.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Symphony.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Symphony",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Exceptions.GridClientException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Exceptions.GridClientException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Exceptions.GridClientException",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Exceptions.GridClientException.yml\" sourcestartlinenumber=\"1\">The exception class for Client side reporting Grid Error</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Factory.ServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Factory.ServiceFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Factory.ServiceFactory",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Factory.ServiceFactory.yml\" sourcestartlinenumber=\"1\">The service Factory to load service previously registered</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Factory.SessionServiceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Factory.SessionServiceFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Factory.SessionServiceFactory",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Factory.SessionServiceFactory.yml\" sourcestartlinenumber=\"1\">The main object to communicate with the control Plane from the client side\nThe class will connect to the control plane to createSession, SubmitTask,\nWait for result and get the result.\nSee an example in the project ArmoniK.Samples in the sub project\n<a href=\"https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/UnifiedAPI\" sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Factory.SessionServiceFactory.yml\" sourcestartlinenumber=\"5\">https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/UnifiedAPI</a>\nSamples.ArmoniK.Sample.UnifiedAPI.Client</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Factory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Factory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Factory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.AdminMonitoringService.yml\" sourcestartlinenumber=\"1\">The Administration and monitoring class to get or manage information on grid server</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.ServiceAdmin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.ServiceAdmin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.ServiceAdmin",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.ServiceAdmin.yml\" sourcestartlinenumber=\"1\">The class to access to all Admin and monitoring API</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Admin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.Admin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Common.AbstractClientService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Common.AbstractClientService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.Common.AbstractClientService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Services.Common.AbstractClientService.yml\" sourcestartlinenumber=\"1\">The abstract for client service creation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.SessionService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.SessionService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.SessionService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Services.SessionService.yml\" sourcestartlinenumber=\"1\">The class SessionService will be create each time the function CreateSession or OpenSession will\nbe called by client or by the worker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.Service.ServiceResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.Service.ServiceResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.Service.ServiceResult",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.Service.ServiceResult.yml\" sourcestartlinenumber=\"1\">Class to return TaskId and the result</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.Service.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.Service",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.Service.yml\" sourcestartlinenumber=\"1\">This class is instantiated by ServiceFactory and allows to execute task on ArmoniK\nGrid.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services.Submitter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Client.Unified.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Client.Unified.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.AppsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.AppsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.AppsOptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.ArmonikPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.ArmonikPayload.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.ArmonikPayload",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.ArmonikPayload.yml\" sourcestartlinenumber=\"1\">A class used to define the computation required from the worker</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.EngineType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.EngineType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.EngineType",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.EngineType.yml\" sourcestartlinenumber=\"1\">Engine type to set in TaskOption to select API to use during the execution on worker</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.EngineTypeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.EngineTypeHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.EngineTypeHelper",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.EngineTypeHelper.yml\" sourcestartlinenumber=\"1\">Convert helper from Enum to class and reverse</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.EngineTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.EngineTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.EngineTypes",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.EngineTypes.yml\" sourcestartlinenumber=\"1\">Map table to target API</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Exceptions.ClientApiException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Exceptions.ClientApiException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Exceptions.ClientApiException",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.Exceptions.ClientApiException.yml\" sourcestartlinenumber=\"1\">General Worker API Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Exceptions.ClientResultsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Exceptions.ClientResultsException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Exceptions.ClientResultsException",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.Exceptions.ClientResultsException.yml\" sourcestartlinenumber=\"1\">Bundle an exception with list of task in Error</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Exceptions.WorkerApiException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Exceptions.WorkerApiException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Exceptions.WorkerApiException",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.Exceptions.WorkerApiException.yml\" sourcestartlinenumber=\"1\">General Worker API Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Extensions.EnumExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Extensions.EnumExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Extensions.EnumExt",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Extensions.IEnumerableExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Extensions.IEnumerableExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Extensions.IEnumerableExt",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.Extensions.IEnumerableExt.yml\" sourcestartlinenumber=\"1\">Convert IEnumerable byte to IEnumerable double</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Extensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Extensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.IFileAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.IFileAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.IFileAdapter",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.IFileAdapter.yml\" sourcestartlinenumber=\"1\">The interface to download file</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.MarkDownDocAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.MarkDownDocAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.MarkDownDocAttribute",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.MarkDownDocAttribute.yml\" sourcestartlinenumber=\"1\">The attribute to create the Markdown documentation on the class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.ProtoSerializer.Nullable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.ProtoSerializer.Nullable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.ProtoSerializer.Nullable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.ProtoSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.ProtoSerializer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.ProtoSerializer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Retry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Retry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Retry",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.Retry.yml\" sourcestartlinenumber=\"1\">A generic class to implement retry function</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Tests.ProtoSerializerTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Tests.ProtoSerializerTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Tests.ProtoSerializerTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Utils.Either-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Utils.Either-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Utils.Either<L, R>",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Common.Utils.Either-2.yml\" sourcestartlinenumber=\"1\">Represents a simple Either type to manage an object of type L or an exception of type R.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.Utils.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common.Utils",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Adapter.FsAdapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Adapter.FsAdapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.Adapter.FsAdapter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Adapter.S3Adapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Adapter.S3Adapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.Adapter.S3Adapter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Adapter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Adapter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.Adapter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Archive.IArchiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Archive.IArchiver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.Archive.IArchiver",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Common.Archive.IArchiver.yml\" sourcestartlinenumber=\"1\">Interface for archive extraction</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Archive.ZipArchiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Archive.ZipArchiver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.Archive.ZipArchiver",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Common.Archive.ZipArchiver.yml\" sourcestartlinenumber=\"1\">Class used do handle zip archives</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Archive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.Archive.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.Archive",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.IAppsLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.IAppsLoader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.IAppsLoader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.IGridWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.IGridWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.IGridWorker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.PackageId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.PackageId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.PackageId",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Common.PackageId.yml\" sourcestartlinenumber=\"1\">Identifier for a Package</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.ResultIdEnumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.ResultIdEnumerable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.ResultIdEnumerable",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Common.ResultIdEnumerable.yml\" sourcestartlinenumber=\"1\">Enumerable to create result Ids</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.ServiceId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.ServiceId.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.ServiceId",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Common.ServiceId.yml\" sourcestartlinenumber=\"1\">Identifier for a Service</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.WorkerHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.WorkerHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.WorkerHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.XmlDocIgnoreAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.XmlDocIgnoreAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common.XmlDocIgnoreAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.ApplicationPackageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.ApplicationPackageManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.DLLWorker.ApplicationPackageManager",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.DLLWorker.ApplicationPackageManager.yml\" sourcestartlinenumber=\"1\">Manages application packages</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.AppsLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.AppsLoader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.DLLWorker.AppsLoader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.ArmonikServiceWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.ArmonikServiceWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.DLLWorker.ArmonikServiceWorker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.ServiceRequestContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.ServiceRequestContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.DLLWorker.ServiceRequestContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.Services.ComputerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.Services.ComputerService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.DLLWorker.Services.ComputerService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.DLLWorker.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.DLLWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.DLLWorker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.GridWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.GridWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony.GridWorker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBase",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBase.yml\" sourcestartlinenumber=\"1\">The Class ServiceContainerBase (Old name was IServiceContainer) is an abstract class\nthat have to be implemented by each class wanted to be loaded as new Application\nSee an example in the project ArmoniK.Samples in the sub project\n<a href=\"https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike\" sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBase.yml\" sourcestartlinenumber=\"4\">https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike</a>\nSamples.ArmoniK.Sample.SymphonyPackages</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBaseExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBaseExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBaseExt",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContainerBaseExt.yml\" sourcestartlinenumber=\"1\">This is the ServiceContainerBase extensions used to extend SubmitSubTasks</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony.ServiceContext",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony.SessionContext",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionContext.yml\" sourcestartlinenumber=\"1\">Container for the information associated with a particular Session.\nSuch information may be required during the servicing of a task from a Session.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionPollingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionPollingService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony.SessionPollingService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionPollingService.yml\" sourcestartlinenumber=\"1\">The class SessionService will be create each time the function CreateSession or OpenSession will\nbe called by client or by the worker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionServiceExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionServiceExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony.SessionServiceExt",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Symphony.SessionServiceExt.yml\" sourcestartlinenumber=\"1\">The SessionService Extension to single task creation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.TaskContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.TaskContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony.TaskContext",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Symphony.TaskContext.yml\" sourcestartlinenumber=\"1\">Provides the context for the task that is bound to the given service invocation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Symphony.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Symphony",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.BaseService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.BaseService-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.BaseService<T>",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.BaseService-1.yml\" sourcestartlinenumber=\"1\">The Class ServiceContainerBase (Old name was IServiceContainer) is an abstract class\nthat have to be implemented by each class wanted to be loaded as new Application\nSee an example in the project ArmoniK.Samples in the sub project\n<a href=\"https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike\" sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.BaseService-1.yml\" sourcestartlinenumber=\"4\">https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/SymphonyLike</a>\nSamples.ArmoniK.Sample.SymphonyPackages</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.BaseServiceExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.BaseServiceExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.BaseServiceExt",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.BaseServiceExt.yml\" sourcestartlinenumber=\"1\">This is the ServiceContainerBase extensions used to extend SubmitSubTasks</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.Exceptions.UnifiedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.Exceptions.UnifiedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.Exceptions.UnifiedException",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.Exceptions.UnifiedException.yml\" sourcestartlinenumber=\"1\">The exception class for Server side reporting Grid Error</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.Exceptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.Exceptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.GridWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.GridWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.GridWorker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ICheckHealth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ICheckHealth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.ICheckHealth",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.ICheckHealth.yml\" sourcestartlinenumber=\"1\">Interface to check the health of a service.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ILoggerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ILoggerConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.ILoggerConfiguration",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.ILoggerConfiguration.yml\" sourcestartlinenumber=\"1\">implementation of this interface in <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService\" data-throw-if-not-resolved=\"false\"></xref> or your own implementation allows to have a\nlogger configured automatically by the <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.GridWorker\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ISessionConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ISessionConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.ISessionConfiguration",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.ISessionConfiguration.yml\" sourcestartlinenumber=\"1\">implementation of this interface in <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService\" data-throw-if-not-resolved=\"false\"></xref> or your own implementation allows to have the\n<xref href=\"ArmoniK.Api.gRPC.V1.TaskOptions\" data-throw-if-not-resolved=\"false\"></xref> configured automatically by the <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.GridWorker\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ISessionServiceConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ISessionServiceConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.ISessionServiceConfiguration",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.ISessionServiceConfiguration.yml\" sourcestartlinenumber=\"1\">implementation of this interface in <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService\" data-throw-if-not-resolved=\"false\"></xref> or your own implementation allows to have the\n<xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.SessionPollingService\" data-throw-if-not-resolved=\"false\"></xref> configured automatically by the <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.GridWorker\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ITaskContextConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ITaskContextConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.ITaskContextConfiguration",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.ITaskContextConfiguration.yml\" sourcestartlinenumber=\"1\">implementation of this interface in <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService\" data-throw-if-not-resolved=\"false\"></xref> or your own implementation allows to have the\n<xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.ITaskContextConfiguration.TaskContext\" data-throw-if-not-resolved=\"false\"></xref> configured automatically by the <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.GridWorker\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ITaskOptionsConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ITaskOptionsConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.ITaskOptionsConfiguration",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.ITaskOptionsConfiguration.yml\" sourcestartlinenumber=\"1\">implementation of this interface in <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService\" data-throw-if-not-resolved=\"false\"></xref> or your own implementation allows to have the\n<xref href=\"ArmoniK.Api.gRPC.V1.TaskOptions\" data-throw-if-not-resolved=\"false\"></xref> configured automatically by the <xref href=\"ArmoniK.DevelopmentKit.Worker.Unified.GridWorker\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ServiceContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.ServiceContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.ServiceContext",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.SessionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.SessionContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.SessionContext",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.SessionContext.yml\" sourcestartlinenumber=\"1\">Container for the information associated with a particular Session.\nSuch information may be required during the servicing of a task from a Session.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.SessionPollingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.SessionPollingService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.SessionPollingService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.SessionPollingService.yml\" sourcestartlinenumber=\"1\">The class SessionService will be create each time the function CreateSession or OpenSession will\nbe called by client or by the worker.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.SessionServiceExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.SessionServiceExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.SessionServiceExt",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.SessionServiceExt.yml\" sourcestartlinenumber=\"1\">The SessionService Extension to single task creation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.TaskContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.TaskContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.TaskContext",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.TaskContext.yml\" sourcestartlinenumber=\"1\">Provides the context for the task that is bound to the given service invocation</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.TaskSubmitterWorkerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.TaskSubmitterWorkerService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.TaskSubmitterWorkerService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.TaskSubmitterWorkerService.yml\" sourcestartlinenumber=\"1\">This is an abstract class that have to be implemented\nby each class who needs context or tasks submission on worker side\nSee an example in the project ArmoniK.Samples in the sub project\n<a href=\"https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/UnifiedAPI\" sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.TaskSubmitterWorkerService.yml\" sourcestartlinenumber=\"4\">https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/UnifiedAPI</a>\nArmoniK.Samples.Worker/Services/ServiceApps.cs</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService",
+      "Summary": "<p sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService.yml\" sourcestartlinenumber=\"1\">This is an abstract class that have to be implemented\nby each class who needs context or tasks submission on worker side\nSee an example in the project ArmoniK.Samples in the sub project\n<a href=\"https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/UnifiedAPI\" sourcefile=\"api/ArmoniK.DevelopmentKit.Worker.Unified.TaskWorkerService.yml\" sourcestartlinenumber=\"4\">https://github.com/aneoconsulting/ArmoniK.Samples/tree/main/Samples/UnifiedAPI</a>\nArmoniK.Samples.Worker/Services/ServiceApps.cs</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.DevelopmentKit.Worker.Unified.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.DevelopmentKit.Worker.Unified",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Program.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Program",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.AggregationPriority.AggregationPriorityTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.AggregationPriority.AggregationPriorityTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.AggregationPriority.AggregationPriorityTest",
+      "Summary": "<p sourcefile=\"api/ArmoniK.EndToEndTests.Client.Tests.AggregationPriority.AggregationPriorityTest.yml\" sourcestartlinenumber=\"1\">AggregationPriorityTest is a class that tests the AggregationPriority application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.AggregationPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.AggregationPriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.AggregationPriority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks.CheckMultipleTasksClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks.CheckMultipleTasksClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks.CheckMultipleTasksClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks.MultipleTasksClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks.MultipleTasksClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks.MultipleTasksClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckMultipleTasks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckRandomException.CheckRandomExceptionSymClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckRandomException.CheckRandomExceptionSymClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckRandomException.CheckRandomExceptionSymClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckRandomException.RandomExceptionSymClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckRandomException.RandomExceptionSymClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckRandomException.RandomExceptionSymClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckRandomException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckRandomException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckRandomException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSessionUniqCallback.CheckSessionUniqCallbackClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSessionUniqCallback.CheckSessionUniqCallbackClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSessionUniqCallback.CheckSessionUniqCallbackClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSessionUniqCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSessionUniqCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSessionUniqCallback",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTreeUnifiedApi",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SimpleComputeNSubtaskingClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SimpleComputeNSubtaskingClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SimpleComputeNSubtaskingClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SubtaskingTreeClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SubtaskingTreeClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SubtaskingTreeClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SubtaskingTreeClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SubtaskingTreeClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.SubtaskingTreeClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckSubtaskingTree_SymphonySDK",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults.CheckTryGetResultClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults.CheckTryGetResultClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults.CheckTryGetResultClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults.CheckTryGetResultsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults.CheckTryGetResultsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults.CheckTryGetResultsClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTryGetResults",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest.GetResultType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest.GetResultType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest.GetResultType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest.SubmissionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest.SubmissionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest.SubmissionType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.CheckAllSubmissionsClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.MyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.MyExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.MyExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckTypeOfSubmission",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.IgnoreErrorHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.IgnoreErrorHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.IgnoreErrorHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiAdminClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiAdminClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiAdminClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiAdminTestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiAdminTestClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiAdminTestClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiTestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiTestClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.SimpleUnifiedApiTestClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.CheckUnifiedApi",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.IEnumerable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.IEnumerable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.IEnumerable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.LargePayloadSubmitClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.LargePayloadSubmitClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.LargePayloadSubmitClient",
+      "Summary": "<p sourcefile=\"api/ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.LargePayloadSubmitClient.yml\" sourcestartlinenumber=\"1\">The client submission class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.LargePayloadSubmitClientTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.LargePayloadSubmitClientTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.LargePayloadSubmitClientTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.LargePayloadSubmit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync.LargeSubmitAsyncTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync.LargeSubmitAsyncTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync.LargeSubmitAsyncTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync.SubmitAsyncFixRequestOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync.SubmitAsyncFixRequestOrder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync.SubmitAsyncFixRequestOrder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.LargeSubmitAsync",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.HandleErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.HandleErrorType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.HandleErrorType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.HandleResponseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.HandleResponseType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.HandleResponseType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.PayloadIntegrityTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.PayloadIntegrityTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.PayloadIntegrityTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.ResultHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.ResultHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.ResultHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.PayloadIntegrityTestClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.Priority.Priority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.Priority.Priority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.Priority.Priority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.Priority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.Priority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.Priority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.SimpleComputeNSubtasking.SimpleComputeNSubtaskingClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.SimpleComputeNSubtasking.SimpleComputeNSubtaskingClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.SimpleComputeNSubtasking.SimpleComputeNSubtaskingClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.SimpleComputeNSubtasking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.SimpleComputeNSubtasking.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.SimpleComputeNSubtasking",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.TemplateTest.TemplateTestClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.TemplateTest.TemplateTestClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.TemplateTest.TemplateTestClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.TemplateTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.TemplateTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests.TemplateTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.Tests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client.Tests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Client.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Client",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.Assert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.Assert.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.Assert",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.ClientBaseTest-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.ClientBaseTest-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.ClientBaseTest<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.ClientPayload.TaskType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.ClientPayload.TaskType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.ClientPayload.TaskType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.ClientPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.ClientPayload.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.ClientPayload",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.ClientTestHelpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.ClientTestHelpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.ClientTestHelpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.DisabledAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.DisabledAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.DisabledAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.EntryPointAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.EntryPointAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.EntryPointAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.TaskOptionsExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.TaskOptionsExt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.TaskOptionsExt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.TaskPayload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.TaskPayload.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.TaskPayload",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.TaskResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.TaskResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.TaskResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.TestContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.TestContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common.TestContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Tests.CheckOptions.CheckOptionsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Tests.CheckOptions.CheckOptionsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Tests.CheckOptions.CheckOptionsClient",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Tests.CheckOptions.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Tests.CheckOptions.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Tests.CheckOptions.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Tests.CheckOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Tests.CheckOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Tests.CheckOptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.AggregationPriority.AggregationPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.AggregationPriority.AggregationPriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.AggregationPriority.AggregationPriority",
+      "Summary": "<p sourcefile=\"api/ArmoniK.EndToEndTests.Worker.Tests.AggregationPriority.AggregationPriority.yml\" sourcestartlinenumber=\"1\">AggregationPriority is a TaskWorkerService class that contains methods to compute basic array cube, reduce, reduce\ncube, compute madd, compute matrix, compute vector, compute scalar, and aggregate results.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.AggregationPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.AggregationPriority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.AggregationPriority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckMultipleTasks.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckMultipleTasks.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckMultipleTasks.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckMultipleTasks.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckMultipleTasks.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckMultipleTasks",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException.MyCustomWorkerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException.MyCustomWorkerException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException.MyCustomWorkerException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckRandomException",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSessionUniqCallback.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSessionUniqCallback.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckSessionUniqCallback.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSessionUniqCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSessionUniqCallback.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckSessionUniqCallback",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTreeUnifiedApi.SubtaskingTreeUnifiedApiWorker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTreeUnifiedApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTreeUnifiedApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTreeUnifiedApi",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTree_SymphonySDK.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTree_SymphonySDK.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTree_SymphonySDK.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTree_SymphonySDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTree_SymphonySDK.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckSubtaskingTree_SymphonySDK",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckTryGetResults.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckTryGetResults.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckTryGetResults.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckTryGetResults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckTryGetResults.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckTryGetResults",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckTypeOfSubmission.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckTypeOfSubmission.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckTypeOfSubmission.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckTypeOfSubmission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckTypeOfSubmission.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckTypeOfSubmission",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckUnifiedApi.CheckUnifiedApiWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckUnifiedApi.CheckUnifiedApiWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckUnifiedApi.CheckUnifiedApiWorker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckUnifiedApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.CheckUnifiedApi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.CheckUnifiedApi",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.LargePayloadSubmit.LargePayloadSubmitWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.LargePayloadSubmit.LargePayloadSubmitWorker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.LargePayloadSubmit.LargePayloadSubmitWorker",
+      "Summary": "<p sourcefile=\"api/ArmoniK.EndToEndTests.Worker.Tests.LargePayloadSubmit.LargePayloadSubmitWorker.yml\" sourcestartlinenumber=\"1\">The service to register in the worker</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.LargePayloadSubmit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.LargePayloadSubmit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.LargePayloadSubmit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.PayloadIntegrityTestWorker.Services.ServiceApps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.PayloadIntegrityTestWorker.Services.ServiceApps.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.PayloadIntegrityTestWorker.Services.ServiceApps",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.PayloadIntegrityTestWorker.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.PayloadIntegrityTestWorker.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.PayloadIntegrityTestWorker.Services",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.Priority.Priority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.Priority.Priority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.Priority.Priority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.Priority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.Priority.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.Priority",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.SimpleComputeNSubtasking.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.SimpleComputeNSubtasking.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.SimpleComputeNSubtasking.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.SimpleComputeNSubtasking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.SimpleComputeNSubtasking.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.SimpleComputeNSubtasking",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.TemplateTest.ServiceContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.TemplateTest.ServiceContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.TemplateTest.ServiceContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.TemplateTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ArmoniK.EndToEndTests.Worker.Tests.TemplateTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ArmoniK.EndToEndTests.Worker.Tests.TemplateTest",
+      "Summary": null
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/armonik_favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/armonik_favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/armonik_logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/armonik_logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
